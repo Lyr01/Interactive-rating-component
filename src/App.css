@@ -44,3 +44,9 @@ body {
 .attribution a {
 	color: var(--orange);
 }
+
+@media only screen and (orientation: landscape) and (min-width: 450px) {
+	.App {
+		height: 100%;
+	}
+}

@@ -9,7 +9,7 @@ const FinalState = ({ finalRating }: Prop) => {
 	return (
 		<div className={styles.ratingBox}>
 			<div className={styles.ThankYouBox}>
-				<div>
+				<div className={styles.illustration}>
 					<img src={illustration} alt="illustration-thank-you" />
 				</div>
 				<div className={styles.selectedRating}>
