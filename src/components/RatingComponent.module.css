@@ -144,7 +144,7 @@ p {
 	}
 }
 
-@media only screen and (orientation: landscape) and (min-width: 450px) {
+@media only screen and (orientation: landscape) and (max-width: 450px) {
 	.ratingBox {
 		margin-top: 20px;
 		width: 400px;
